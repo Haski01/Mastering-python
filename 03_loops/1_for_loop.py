@@ -1,25 +1,9 @@
-# Python for loop
+# token dispencer
 
-# A loop lets us repeat a block of code multiple times.
-# In Python, for loops are used to iterate over a sequence (like list, tuple, string, dictionary, range, etc.).
-
-
-# [Iterating Over a List]
-fruits = ["apple", "banana", "mango"]
-for fruit in fruits:
-    print(fruit)
+for token in range(1,6):
+    print(f"Serving chai to token: {token}") # output 1 to 5 
 
 
-# [Iterating Over a String]
-for char in "Python":
-    print(char)
-
-
-# [**************************Using range() in for Loop**********************]
-# range() generates a sequence of numbers.
-
-# range(start, stop, step)
-for i in range(1,6,2): # start = 1, stop=5(6 not includid)   
-    print(i)
-
-
+# batch chai
+for batch in range(1,5):
+        print(f"Preparing chai for batch #{batch}")
