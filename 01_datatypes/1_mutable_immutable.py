@@ -22,8 +22,8 @@ fruits.append("mango")   # modifying the same list
 print(fruits) # ['apple', 'banana', 'mango']
 print(id(fruits))        # memory address remains same
 
-# **********************Common Immutable and Immutable Data Types************
-# Immutable: integers,strings,typles
+# **********************Common Immutable and Mutable Data Types************
+# Immutable: integers,strings,tuples
 # Mutable: list/array, dictionaries/objects, sets
 
 
