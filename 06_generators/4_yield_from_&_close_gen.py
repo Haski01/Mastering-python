@@ -1,3 +1,5 @@
+# yeild from example
+
 def local_chai():
     yield "Masala chai"
     yield "Ginger chai"
@@ -14,6 +16,7 @@ def chai_menu():
 #     print(chai)
 
 
+# close generator method exapmple 
 def custome_chai():
     try:
         while True:
