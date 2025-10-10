@@ -16,7 +16,7 @@ async def main():
         make_tea()
     )
 
-# asyncio.run(main())
+asyncio.run(main())
 
 # example 2
 
@@ -32,4 +32,4 @@ async def main():
         brew("Cardmom")
     )
 
-asyncio.run(main())
+# asyncio.run(main())

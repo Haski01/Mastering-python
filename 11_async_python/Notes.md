@@ -27,4 +27,4 @@
   - async def → defines an asynchronous function.
   - await → pauses the function until another async task completes.
 
-- You need an event loop to run async functions — Python provides it using asyncio.
+- You need an event loop to run async functions — Python provides it using `asyncio`.
